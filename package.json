@@ -1,0 +1,26 @@
+{
+    "name": "eslint-config-frontend",
+    "version": "1.0.0",
+    "description": "ESLint config, following my styleguide",
+    "main": "index.js",
+    "author": "88Maxwell",
+    "homepage": "https://github.com/88Maxwell/eslint-config-frontend#readme",
+    "scripts": {
+        "test": "node tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/88Maxwell/eslint-config-frontend.git"
+    },
+    "devDependencies": {
+        "eslint": ">= 5.16.0"
+    },
+    "peerDependencies": {
+        "eslint": ">= 5.16.0",
+        "eslint-plugin-fetch": "^0.0.1",
+        "eslint-plugin-import": "^2.17.3",
+        "eslint-plugin-more": "^0.3.2",
+        "eslint-plugin-prefer-spread": "^1.0.3",
+        "eslint-plugin-react": "^7.13.0"
+    }
+}
