@@ -165,9 +165,8 @@ module.exports = {
         "computed-property-spacing": [2, "never"],
         "eol-last": 2,
         "func-names": 1,
-        "func-style": [2, "declaration"],
         "indent": [2, 4, { "SwitchCase": 1 }],
-        "jsx-quotes": [2, "prefer-single"],
+        "jsx-quotes": [1, "prefer-double"],
         "key-spacing": [2, {
             "singleLine": {
                 "beforeColon": false,
@@ -200,7 +199,7 @@ module.exports = {
         "object-curly-spacing": [2, "always"],
         "one-var": [2, "never"],
         "padded-blocks": [2, "never"],
-        "quotes": [1, "single", "avoid-escape"],
+        "quotes": [2, "double", { "avoidEscape": true }],
         "semi-spacing": [2, { "before": false, "after": true }],
         "semi": [2, "always"],
         "keyword-spacing": 2,

@@ -58,7 +58,7 @@ module.exports = {
         "react/no-children-prop": 2,
         "react/jsx-first-prop-new-line": [2, "multiline"],
         "react/jsx-tag-spacing": 2,
-        "react/require-default-props": 2,
+        "react/require-default-props": 0,
         "react/no-array-index-key": 2,
         "react/forbid-foreign-prop-types": 2,
         "react/void-dom-elements-no-children": 2,

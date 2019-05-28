@@ -21,6 +21,7 @@
         "eslint-plugin-import": "^2.17.3",
         "eslint-plugin-more": "^0.3.2",
         "eslint-plugin-prefer-spread": "^1.0.3",
-        "eslint-plugin-react": "^7.13.0"
+        "eslint-plugin-react": "^7.13.0",
+        "eslint-plugin-security": "^1.4.0"
     }
 }
