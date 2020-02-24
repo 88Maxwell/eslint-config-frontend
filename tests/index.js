@@ -17,6 +17,7 @@ const eslintOpts = {
 
 // Runs the linter on the repo files and asserts no errors were found.
 const report = new eslint.CLIEngine(eslintOpts).executeOnFiles(repoFiles);
+
 assert.equal(report.errorCount, 0);
 assert.equal(report.warningCount, 0);
 repoFiles.forEach((file, index) => {
