@@ -159,7 +159,7 @@ module.exports = {
     "computed-property-spacing": [2, "never"],
     "eol-last": 2,
     "func-names": 1,
-    indent: [2, 4, { SwitchCase: 1 }],
+    indent: [2, 2, { SwitchCase: 1 }],
     "jsx-quotes": [1, "prefer-double"],
     "key-spacing": [
       2,
