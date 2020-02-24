@@ -1,7 +1,4 @@
 module.exports = {
-    extends: [
-        './rules/base',
-        './rules/airbnb',
-        ].map(require.resolve),
-    rules: {},
+  extends: ["./rules/base"].map(require.resolve),
+  rules: {}
 };
