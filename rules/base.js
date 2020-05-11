@@ -231,6 +231,14 @@ module.exports = {
         //   "error",
         //   { "blankLine": "always", "prev": "var", "next": "return" }
         // ]
+        // ADITIONAL
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-props-no-spreading": [0],
+        "react/forbid-prop-types": [0],
+        "import/prefer-default-export": [0],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "react/jsx-indent-props": ["error", 4]
     },
     globals: {
         $: true,
