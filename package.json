@@ -13,9 +13,9 @@
         "url": "git+https://github.com/88Maxwell/eslint-config-frontend.git"
     },
     "devDependencies": {
-        "eslint": "^7.0.0"
+        "eslint": "^6.0.0"
     },
     "peerDependencies": {
-        "eslint": ">= 7.0.0"
+        "eslint": ">= 6.0.0"
     }
 }
