@@ -157,7 +157,6 @@ module.exports = {
         "computed-property-spacing": [2, "never"],
         "eol-last": 2,
         "func-names": 1,
-        indent: ["error", 4, { SwitchCase: 1 }],
         "jsx-quotes": [1, "prefer-double"],
         "key-spacing": [
             2,
@@ -233,12 +232,12 @@ module.exports = {
         // ]
         // ADITIONAL
         "react/jsx-indent": ["error", 4],
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "react/jsx-props-no-spreading": [0],
-        "react/forbid-prop-types": [0],
+        indent: ["error", 4, { SwitchCase: 1 }],
+        "react/jsx-indent-props": ["error", 4],
+        "react/jsx-filename-extension": [2, { extensions: [".js", ".jsx"] }],
+        "react/forbid-prop-types": [1],
         "import/prefer-default-export": [0],
-        "indent": ["error", 4, { "SwitchCase": 1 }],
-        "react/jsx-indent-props": ["error", 4]
+        "react/jsx-props-no-spreading": [1],
     },
     globals: {
         $: true,
